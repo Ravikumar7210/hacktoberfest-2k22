@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio>
 
 using namespace std;
 
@@ -12,7 +13,7 @@ int main()
     
     char arr[n+1];
    
-    cout<<endl<<"Enter any sentence: ";
+    cout<<endl<<"Enter any string or sentence you want to add: ";
     cin.getline(arr, n);
     cin.ignore();
 
@@ -40,7 +41,7 @@ int main()
 
     }
 
-    cout<<"MaxLen: "<<maxLen;
+    cout<<"MaxLen of the characcter is: "<<maxLen;
     cout<<endl;
     for(i=0;i<maxLen;i++)
     {
